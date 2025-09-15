@@ -111,7 +111,7 @@ export default function Projects() {
             asChild
             data-testid="button-view-all-projects"
           >
-            <a href="https://github.com/piyushthakur" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/piyushthakur7" target="_blank" rel="noopener noreferrer">
               <span>View All Projects</span>
               <Github className="ml-2 h-4 w-4" />
             </a>

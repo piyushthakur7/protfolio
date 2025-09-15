@@ -57,22 +57,22 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "your-email@example.com",
-      href: "mailto:your-email@example.com",
+      value: "tpiyush300@gmail.com",
+      href: "mailto:tpiyush300@gmail.com",
       color: "bg-primary/20 text-primary",
     },
     {
       icon: Linkedin,
       title: "LinkedIn",
-      value: "linkedin.com/in/piyushthakur",
-      href: "https://linkedin.com/in/piyushthakur",
+      value: "LinkedIn Profile",
+      href: "https://www.linkedin.com/in/piyush-thakur-6656a429a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       color: "bg-accent/20 text-accent",
     },
     {
       icon: Github,
       title: "GitHub",
-      value: "github.com/piyushthakur",
-      href: "https://github.com/piyushthakur",
+      value: "github.com/piyushthakur7",
+      href: "https://github.com/piyushthakur7",
       color: "bg-primary/20 text-primary",
     },
   ];
@@ -198,7 +198,7 @@ export default function Contact() {
                   asChild
                   data-testid="button-quick-email"
                 >
-                  <a href="mailto:your-email@example.com">
+                  <a href="mailto:tpiyush300@gmail.com">
                     <Mail className="mr-2 h-4 w-4" />
                     Quick Email
                   </a>

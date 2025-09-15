@@ -1,4 +1,4 @@
-import { ArrowDown, Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { ArrowDown, Mail, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Hero() {
@@ -58,7 +58,7 @@ export default function Hero() {
           {/* Social Icons */}
           <div className="flex justify-center space-x-6 pt-8">
             <a
-              href="https://github.com/piyushthakur"
+              href="https://github.com/piyushthakur7"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transform hover:scale-110 transition-all duration-200"
@@ -67,7 +67,7 @@ export default function Hero() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/piyushthakur"
+              href="https://www.linkedin.com/in/piyush-thakur-6656a429a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transform hover:scale-110 transition-all duration-200"
@@ -76,13 +76,11 @@ export default function Hero() {
               <Linkedin className="h-6 w-6" />
             </a>
             <a
-              href="https://twitter.com/piyushthakur"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:tpiyush300@gmail.com"
               className="text-muted-foreground hover:text-primary transform hover:scale-110 transition-all duration-200"
-              data-testid="link-twitter"
+              data-testid="link-email"
             >
-              <Twitter className="h-6 w-6" />
+              <Mail className="h-6 w-6" />
             </a>
           </div>
         </div>
