@@ -45,7 +45,9 @@ export default function Navigation() {
   const navItems = [
     { id: "home", label: "Home" },
     { id: "about", label: "About" },
+    { id: "skills", label: "Skills" },
     { id: "projects", label: "Projects" },
+    { id: "blog", label: "Blog" },
     { id: "contact", label: "Contact" },
   ];
 
@@ -64,9 +66,9 @@ export default function Navigation() {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className={`font-medium transition-colors duration-200 ${
+                  className={`font-medium nav-link ${
                     activeSection === item.id
-                      ? "text-primary"
+                      ? "text-primary active"
                       : "text-muted-foreground hover:text-primary"
                   }`}
                   data-testid={`nav-${item.id}`}
