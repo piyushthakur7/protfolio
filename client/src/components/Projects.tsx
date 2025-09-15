@@ -9,7 +9,7 @@ export default function Projects() {
       description: "A full-stack e-commerce solution built with React and Node.js, featuring user authentication, payment processing, and real-time inventory management.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tags: ["React", "Node.js", "MongoDB"],
-      github: "https://github.com/piyushthakur/ecommerce",
+      github: "https://github.com/piyushthakur7/ecommerce",
       demo: "https://ecommerce-demo.com",
     },
     {
@@ -18,7 +18,7 @@ export default function Projects() {
       description: "An intelligent analytics platform that uses machine learning to predict trends and provide actionable insights from business data with interactive visualizations.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tags: ["Python", "TensorFlow", "D3.js"],
-      github: "https://github.com/piyushthakur/analytics-dashboard",
+      github: "https://github.com/piyushthakur7/analytics-dashboard",
       demo: "https://analytics-demo.com",
     },
     {
@@ -27,7 +27,7 @@ export default function Projects() {
       description: "A modern social media platform with real-time messaging, post sharing, and content discovery features, built with React Native for cross-platform compatibility.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tags: ["React Native", "Firebase", "Redux"],
-      github: "https://github.com/piyushthakur/social-app",
+      github: "https://github.com/piyushthakur7/social-app",
       demo: "https://social-app-demo.com",
     },
   ];

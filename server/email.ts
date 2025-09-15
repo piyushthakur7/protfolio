@@ -42,7 +42,7 @@ Message: ${formData.message}
 
     await mailService.send({
       to: 'tpiyush300@gmail.com',
-      from: 'noreply@replit.dev', // You'll need to verify this domain with SendGrid
+      from: 'tpiyush300@gmail.com', // Using your verified email as sender
       subject: `Portfolio Contact: ${formData.name}`,
       text: emailText,
       html: emailHtml,
